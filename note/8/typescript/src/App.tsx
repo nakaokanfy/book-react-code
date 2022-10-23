@@ -1,15 +1,7 @@
 import { useEffect, useState } from "react";
 import { ListItem } from "./components/ListItem";
 import axios from "axios";
-// import type { User } from "./types/user";
-
-type User = {
-  id: number;
-  name: string;
-  age: number;
-  personalColor?: string;
-  // hobbies?: string[];
-};
+import type { User } from "./types/user";
 
 export const App = () => {
   // 取得したユーザー情報
