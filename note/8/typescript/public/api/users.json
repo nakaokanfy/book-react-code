@@ -15,6 +15,7 @@
     "id": 3,
     "name": "後藤",
     "age": 23,
-    "personalColor": "green"
+    "personalColor": "green",
+    "hobbies": ["game", "soccer"]
   }
 ]
