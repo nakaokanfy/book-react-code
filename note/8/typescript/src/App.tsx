@@ -34,7 +34,7 @@ export const App = () => {
           id={user.id}
           name={user.name}
           age={user.age}
-          // personalColor={user.personalColor}
+          personalColor={user.personalColor}
           // hobbies={user.hobbies}
         />
       ))}

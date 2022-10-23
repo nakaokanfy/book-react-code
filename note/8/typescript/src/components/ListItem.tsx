@@ -18,12 +18,11 @@ type User = {
   // hobbies?: string[];
 };
 
-
 // export const ListItem = (props) => {
 export const ListItem = (props: User) => {
-    const { id, name, age } = props;
+  const { id, name, age, personalColor } = props;
   return (
-    <p>
+    <p style={{ color: personalColor }}>
       {id}:{name}({age})
     </p>
   );
