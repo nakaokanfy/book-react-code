@@ -19,3 +19,7 @@ export const ListItem: FC<User> = (props) => {
     </p>
   );
 };
+
+ListItem.defaultProps = {
+  personalColor: 'grey'
+}
