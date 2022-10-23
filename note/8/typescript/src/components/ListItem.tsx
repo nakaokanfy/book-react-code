@@ -1,7 +1,7 @@
-// import type { FC } from "react";
+import type { FC } from "react";
 import type { User } from"../types/user";
 
-// export const ListItem: FC<User> = (props) => {
+export const ListItem: FC<User> = (props) => {
 //   const { id, name, age, personalColor = "grey", hobbies } = props;
 //   return (
 //     <p style={{ color: personalColor }}>
@@ -11,7 +11,7 @@ import type { User } from"../types/user";
 // };
 
 
-export const ListItem = (props: User) => {
+// export const ListItem = (props: User) => {
   const { id, name, age, personalColor } = props;
   return (
     <p style={{ color: personalColor }}>
